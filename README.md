@@ -1,5 +1,9 @@
 # study-cards
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e104b587-976f-4846-8bdb-2e0eb9ca2547/deploy-status)](https://app.netlify.com/sites/study-cards-ryantoddgarza/deploys)
+
+Study card app built with [Gatsby](https://www.gatsbyjs.com/) and [TypeScript](https://www.typescriptlang.org/).
+
 ## Running locally
 
 ```shell
