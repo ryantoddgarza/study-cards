@@ -1,0 +1,43 @@
+{
+  "name": "study-cards",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryantoddgarza/study-cards.git"
+  },
+  "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryantoddgarza/study-cards/issues"
+  },
+  "homepage": "https://github.com/ryantoddgarza/study-cards#readme",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "npm run format:code; npm run format:other",
+    "format:code": "npm run lint:code -- --fix",
+    "format:other": "npm run lint:other -- --write",
+    "lint": "npm run lint:code; npm run lint:other",
+    "lint:code": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint:other": "prettier \"**/*.{json,scss,md}\" --check",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^4.23.0",
+    "gatsby-plugin-catch-links": "^4.23.0",
+    "gatsby-plugin-offline": "^5.23.1",
+    "gatsby-plugin-robots-txt": "^1.7.1",
+    "gatsby-plugin-sass": "^5.23.0",
+    "gatsby-source-filesystem": "^4.23.0",
+    "gatsby-transformer-json": "^4.23.0",
+    "katex": "^0.16.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@bitpas/eslint-config": "^0.6.1",
+    "eslint": "^7.32.0",
+    "prettier": "^2.7.1"
+  }
+}
