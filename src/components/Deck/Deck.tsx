@@ -11,8 +11,8 @@ const Deck: FC<DeckProps> = ({ data }) => {
   const [flip, setFlip] = useState(false);
   const [index, setIndex] = useState(0);
   const hasNext = index !== problems.length - 1;
-  const question = problems[index].q;
-  const answer = problems[index].a;
+  const { question } = problems[index];
+  const { answer } = problems[index];
 
   const flipCard = () => {
     setFlip(!flip);
@@ -26,12 +26,31 @@ const Deck: FC<DeckProps> = ({ data }) => {
   };
 
   return (
-    <div>
+    <div className="deck">
       <h1>{name}</h1>
-      <div>
-        <BlockMath math={flip ? answer : question} />
-        <button onClick={flipCard}>Flip</button>
-        {hasNext && <button onClick={nextCard}>Next</button>}
+      <div className="card">
+        <div className="header">
+          <div className="side-indicator">{flip ? 'Answer' : 'Question'}</div>
+        </div>
+        <div className="body">
+          {(question.math || answer.math) && (
+            <BlockMath math={flip ? answer.math : question.math} />
+          )}
+        </div>
+      </div>
+      <div className="controls">
+        <div className="item">
+          <div className="button-group">
+            <button className="item" onClick={flipCard}>
+              Flip
+            </button>
+            {hasNext && (
+              <button className="item" onClick={nextCard}>
+                Next
+              </button>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

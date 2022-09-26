@@ -3,28 +3,52 @@
   "slug": "differentiation-formulas",
   "problems": [
     {
-      "q": "\\frac{d}{du} u^n",
-      "a": "nu^{n-1}"
+      "question": {
+        "math": "\\frac{d}{du} u^n"
+      },
+      "answer": {
+        "math": "nu^{n-1}"
+      }
     },
     {
-      "q": "\\frac{d}{du} \\sqrt{u}",
-      "a": "\\frac{1}{2 \\sqrt{u}}"
+      "question": {
+        "math": "\\frac{d}{du} \\sqrt{u}"
+      },
+      "answer": {
+        "math": "\\frac{1}{2 \\sqrt{u}}"
+      }
     },
     {
-      "q": "\\frac{d}{du} \\ln \\lvert u \\rvert",
-      "a": "\\frac{1}{u}"
+      "question": {
+        "math": "\\frac{d}{du} \\ln \\lvert u \\rvert"
+      },
+      "answer": {
+        "math": "\\frac{1}{u}"
+      }
     },
     {
-      "q": "\\frac{d}{du} \\log_b u",
-      "a": "\\frac{1}{u \\ln b}"
+      "question": {
+        "math": "\\frac{d}{du} \\log_b u"
+      },
+      "answer": {
+        "math": "\\frac{1}{u \\ln b}"
+      }
     },
     {
-      "q": "\\frac{d}{du} e^u",
-      "a": "e^u"
+      "question": {
+        "math": "\\frac{d}{du} e^u"
+      },
+      "answer": {
+        "math": "e^u"
+      }
     },
     {
-      "q": "\\frac{d}{du} a^x",
-      "a": "a^x \\ln a"
+      "question": {
+        "math": "\\frac{d}{du} a^x"
+      },
+      "answer": {
+        "math": "a^x \\ln a"
+      }
     }
   ]
 }
