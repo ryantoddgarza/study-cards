@@ -1,0 +1,106 @@
+{
+  "name": "Trigonometric identities",
+  "slug": "trig-identities",
+  "problems": [
+    {
+      "question": {
+        "text": "Basic identity",
+        "math": "\\tan x"
+      },
+      "answer": {
+        "text": "Basic identity",
+        "math": "\\frac{\\sin x}{\\cos x} \\text{ or } \\frac{1}{\\cot x}"
+      }
+    },
+    {
+      "question": {
+        "text": "Basic identity",
+        "math": "\\cot x"
+      },
+      "answer": {
+        "text": "Basic identity",
+        "math": "\\frac{\\cos x}{\\sin x} \\text{ or } \\frac{1}{\\tan x}"
+      }
+    },
+    {
+      "question": {
+        "text": "Basic identity",
+        "math": "\\sec x"
+      },
+      "answer": {
+        "text": "Basic identity",
+        "math": "\\frac{1}{\\cos x}"
+      }
+    },
+    {
+      "question": {
+        "text": "Basic identity",
+        "math": "\\csc x"
+      },
+      "answer": {
+        "text": "Basic identity",
+        "math": "\\frac{1}{\\sin x}"
+      }
+    },
+    {
+      "question": {
+        "text": "Pythagorean identity",
+        "math": "\\sin^2 x + \\cos^2 x"
+      },
+      "answer": {
+        "text": "Pythagorean identity",
+        "math": "1"
+      }
+    },
+    {
+      "question": {
+        "text": "Pythagorean identity",
+        "math": "\\sec^2 x - \\tan^2 x"
+      },
+      "answer": {
+        "text": "Pythagorean identity",
+        "math": "1"
+      }
+    },
+    {
+      "question": {
+        "text": "Pythagorean identity",
+        "math": "\\csc^2 x - \\cot^2 x"
+      },
+      "answer": {
+        "text": "Pythagorean identity",
+        "math": "1"
+      }
+    },
+    {
+      "question": {
+        "text": "Double-angle identity",
+        "math": "\\sin 2x"
+      },
+      "answer": {
+        "text": "Double-angle identity",
+        "math": "2 \\sin x \\cos x"
+      }
+    },
+    {
+      "question": {
+        "text": "Double-angle identity",
+        "math": "\\cos^2 x"
+      },
+      "answer": {
+        "text": "Double-angle identity",
+        "math": "\\frac{1}{2}(1 + \\cos 2x)"
+      }
+    },
+    {
+      "question": {
+        "text": "Double-angle identity",
+        "math": "\\sin^2 x"
+      },
+      "answer": {
+        "text": "Double-angle identity",
+        "math": "\\frac{1}{2}(1 - \\cos 2x)"
+      }
+    }
+  ]
+}
