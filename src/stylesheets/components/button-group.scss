@@ -1,0 +1,15 @@
+@use 'rtg-design-web/sass/rtgds';
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @include rtgds.at-media('phone-lg') {
+    flex-direction: row;
+  }
+}
+
+.button-group .item {
+  margin: 4px;
+}
