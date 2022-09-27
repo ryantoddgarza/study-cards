@@ -27,9 +27,11 @@ export const pageQuery = graphql`
       name
       problems {
         question {
+          text
           math
         }
         answer {
+          text
           math
         }
       }

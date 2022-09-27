@@ -1,8 +1,10 @@
 export interface Problem {
   question: {
+    text?: string;
     math?: string;
   };
   answer: {
+    text?: string;
     math?: string;
   };
 }

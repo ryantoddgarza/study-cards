@@ -33,6 +33,9 @@ const Deck: FC<DeckProps> = ({ data }) => {
           <div className="side-indicator">{flip ? 'Answer' : 'Question'}</div>
         </div>
         <div className="body">
+          {(question.text || answer.text) && (
+            <p>{flip ? answer.text : question.text}</p>
+          )}
           {(question.math || answer.math) && (
             <BlockMath math={flip ? answer.math : question.math} />
           )}
