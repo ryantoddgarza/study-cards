@@ -1,7 +1,7 @@
 {
   "name": "Differentiation Formulas",
   "slug": "differentiation-formulas",
-  "problems": [
+  "cards": [
     {
       "question": {
         "math": "\\frac{d}{du} u^n"

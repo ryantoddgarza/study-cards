@@ -5,15 +5,14 @@ import type { DeckProps } from './types';
 
 const Deck: FC<DeckProps> = ({ data }) => {
   const {
-    deck: { name, problems },
+    deck: { name, cards },
   } = data;
 
   const [flip, setFlip] = useState(false);
   const [index, setIndex] = useState(0);
   const hasPrev = index !== 0;
-  const hasNext = index !== problems.length - 1;
-  const { question } = problems[index];
-  const { answer } = problems[index];
+  const hasNext = index !== cards.length - 1;
+  const { question, answer } = cards[index];
 
   const flipCard = () => {
     setFlip(!flip);

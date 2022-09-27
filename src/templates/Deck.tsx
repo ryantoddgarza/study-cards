@@ -25,7 +25,7 @@ export const pageQuery = graphql`
   query DeckId($id: String!) {
     deck: decksJson(id: { eq: $id }) {
       name
-      problems {
+      cards {
         question {
           text
           math

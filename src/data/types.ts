@@ -1,4 +1,4 @@
-export interface Problem {
+export interface Card {
   question: {
     text?: string;
     math?: string;
@@ -12,5 +12,5 @@ export interface Problem {
 export interface DeckData {
   name: string;
   slug: string;
-  problems: Problem[];
+  cards: Card[];
 }
