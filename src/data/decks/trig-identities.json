@@ -101,6 +101,26 @@
         "text": "Double-angle identity",
         "math": "\\frac{1}{2}(1 - \\cos 2x)"
       }
+    },
+    {
+      "question": {
+        "text": "Hyperbolic identity",
+        "math": "\\cosh x"
+      },
+      "answer": {
+        "text": "Hyperbolic identity",
+        "math": "\\frac{e^x + e^{-x}}{2}"
+      }
+    },
+    {
+      "question": {
+        "text": "Hyperbolic identity",
+        "math": "\\sinh x"
+      },
+      "answer": {
+        "text": "Hyperbolic identity",
+        "math": "\\frac{e^x - e^{-x}}{2}"
+      }
     }
   ]
 }
