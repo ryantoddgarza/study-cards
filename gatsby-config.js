@@ -26,7 +26,15 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        policy: [{ userAgent: '*', disallow: '/' }],
+        policy: [{ userAgent: '*', allow: '' }],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': ['X-Robots-Tag: none, noarchive'],
+        },
       },
     },
     // Load-last plugins
