@@ -4,50 +4,242 @@
   "cards": [
     {
       "question": {
-        "math": "\\frac{d}{du} u^n"
+        "text": "General formulas: Constant",
+        "math": "\\frac{d}{du} (c)"
       },
       "answer": {
-        "math": "nu^{n-1}"
+        "text": "General formulas: Constant",
+        "math": "0"
       }
     },
     {
       "question": {
+        "text": "General formulas: Sum",
+        "math": "\\frac{d}{du} (f + g)"
+      },
+      "answer": {
+        "text": "General formulas: Sum",
+        "math": "\\frac{df}{du} + \\frac{dg}{du}"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Difference",
+        "math": "\\frac{d}{du} (f - g)"
+      },
+      "answer": {
+        "text": "General formulas: Difference",
+        "math": "\\frac{df}{du} - \\frac{dg}{du}"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Linearity",
+        "math": "\\frac{d}{du} (af + bg)"
+      },
+      "answer": {
+        "text": "General formulas: Linearity",
+        "math": "a\\frac{df}{du} + b\\frac{dg}{du}"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Product",
+        "math": "\\frac{d}{du} (fg)"
+      },
+      "answer": {
+        "text": "General formulas: Product",
+        "math": "f\\frac{dg}{du} + g\\frac{df}{du}"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Quotient",
+        "math": "\\frac{d}{du} \\left( \\frac{f}{g} \\right)"
+      },
+      "answer": {
+        "text": "General formulas: Quotient",
+        "math": "f\\frac{dg}{du} + g\\frac{df}{du}"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Power",
+        "math": "\\frac{d}{du} u^n"
+      },
+      "answer": {
+        "text": "General formulas: Power",
+        "math": "nu^{n-1} \\text{, for real numbers } n"
+      }
+    },
+    {
+      "question": {
+        "text": "General formulas: Square root",
         "math": "\\frac{d}{du} \\sqrt{u}"
       },
       "answer": {
+        "text": "General formulas: Square root",
         "math": "\\frac{1}{2 \\sqrt{u}}"
       }
     },
     {
       "question": {
-        "math": "\\frac{d}{du} \\ln \\lvert u \\rvert"
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{d}{du} (e^u)"
       },
       "answer": {
-        "math": "\\frac{1}{u}"
-      }
-    },
-    {
-      "question": {
-        "math": "\\frac{d}{du} \\log_b u"
-      },
-      "answer": {
-        "math": "\\frac{1}{u \\ln b}"
-      }
-    },
-    {
-      "question": {
-        "math": "\\frac{d}{du} e^u"
-      },
-      "answer": {
+        "text": "Exponential and Logarithmic functions",
         "math": "e^u"
       }
     },
     {
       "question": {
-        "math": "\\frac{d}{du} a^x"
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{d}{du} (\\ln |u|)"
       },
       "answer": {
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{1}{u}"
+      }
+    },
+    {
+      "question": {
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{d}{du} (a^x)"
+      },
+      "answer": {
+        "text": "Exponential and Logarithmic functions",
         "math": "a^x \\ln a"
+      }
+    },
+    {
+      "question": {
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{d}{du} (\\log_b u)"
+      },
+      "answer": {
+        "text": "Exponential and Logarithmic functions",
+        "math": "\\frac{1}{u \\ln b}"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\sin x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "\\cos x"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\tan x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "\\sec^2 x"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\sec x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "\\sec x \\tan x"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\cos x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "-\\sin x"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\cot x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "-\\csc^2 x"
+      }
+    },
+    {
+      "question": {
+        "text": "Trigonometric functions",
+        "math": "\\frac{d}{du} (\\csc x)"
+      },
+      "answer": {
+        "text": "Trigonometric functions",
+        "math": "-\\csc x \\cot x"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\sin^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{1}{\\sqrt{1 - x^2}}"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\tan^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{1}{1 + x^2}"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\sec^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{1}{|x| \\sqrt{x^2 - 1}}"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\cos^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "-\\frac{1}{\\sqrt{1 - x^2}}"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\cot^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "-\\frac{1}{1 + x^2}"
+      }
+    },
+    {
+      "question": {
+        "text": "Inverse trigonometric functions",
+        "math": "\\frac{d}{du} (\\csc^{-1} x)"
+      },
+      "answer": {
+        "text": "Inverse trigonometric functions",
+        "math": "-\\frac{1}{|x| \\sqrt{x^2 - 1}}"
       }
     }
   ]
