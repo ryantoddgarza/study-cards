@@ -59,7 +59,7 @@
       },
       "answer": {
         "text": "General formulas: Quotient",
-        "math": "f\\frac{dg}{du} + g\\frac{df}{du}"
+        "math": "\\frac{g\\frac{df}{du} - f\\frac{dg}{du}}{g^2}"
       }
     },
     {
@@ -105,11 +105,11 @@
     {
       "question": {
         "text": "Exponential and Logarithmic functions",
-        "math": "\\frac{d}{du} (a^x)"
+        "math": "\\frac{d}{du} (a^u)"
       },
       "answer": {
         "text": "Exponential and Logarithmic functions",
-        "math": "a^x \\ln a"
+        "math": "a^u \\ln a"
       }
     },
     {
