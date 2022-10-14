@@ -1,5 +1,22 @@
+@use 'rtg-design-web' as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: breakpoint('phone');
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: units(2);
+}
+
 .card .header {
+  padding-top: units(2);
+  padding-bottom: units(2);
   text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .card .header .side-indicator {
@@ -7,5 +24,11 @@
 }
 
 .card .body {
-  text-align: center;
+  flex-grow: 1;
+  padding-top: units(2);
+  padding-bottom: units(2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
