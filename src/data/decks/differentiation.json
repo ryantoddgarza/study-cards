@@ -65,7 +65,7 @@
     {
       "question": {
         "text": "General formulas: Power",
-        "math": "\\frac{d}{du} u^n"
+        "math": "\\frac{d}{du} (u^n)"
       },
       "answer": {
         "text": "General formulas: Power",
@@ -75,7 +75,7 @@
     {
       "question": {
         "text": "General formulas: Square root",
-        "math": "\\frac{d}{du} \\sqrt{u}"
+        "math": "\\frac{d}{du} \\left( \\sqrt{u} \\right)"
       },
       "answer": {
         "text": "General formulas: Square root",
