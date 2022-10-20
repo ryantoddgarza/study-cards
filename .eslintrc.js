@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@bitpas/eslint-config'],
+  extends: ['@bitpas'],
   overrides: [
     {
       files: ['gatsby-node.ts'],
