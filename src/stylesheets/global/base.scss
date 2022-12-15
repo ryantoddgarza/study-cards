@@ -1,4 +1,4 @@
-@use 'rtg-design-web' as *;
+@use "rtg-design-web" as *;
 
 html {
   box-sizing: border-box;
@@ -11,5 +11,5 @@ html {
 }
 
 body {
-  font-family: family('body');
+  font-family: family("body");
 }

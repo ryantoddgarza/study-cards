@@ -1,9 +1,9 @@
-@use 'rtg-design-web' as *;
+@use "rtg-design-web" as *;
 
 .card {
   display: flex;
   flex-direction: column;
-  min-height: breakpoint('phone');
+  min-height: breakpoint("phone");
   border-width: 1px;
   border-style: solid;
   border-color: black;

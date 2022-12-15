@@ -3,4 +3,12 @@ module.exports = {
   singleQuote: true,
   arrowParens: 'always',
   quoteProps: 'consistent',
+  overrides: [
+    {
+      files: ['*.[s]css'],
+      options: {
+        singleQuote: false,
+      },
+    },
+  ],
 };

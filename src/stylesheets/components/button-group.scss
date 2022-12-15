@@ -1,11 +1,11 @@
-@use 'rtg-design-web' as *;
+@use "rtg-design-web" as *;
 
 .button-group {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 
-  @include at-media('phone-lg') {
+  @include at-media("phone-lg") {
     flex-direction: row;
   }
 }
